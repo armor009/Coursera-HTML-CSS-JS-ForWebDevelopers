@@ -3,34 +3,52 @@
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-
-.header-text{
+.header-text {
     text-align: center;
     font-size: 175%;
     margin: 1.75em;
 }
 
-.row{
-    margin: 0px auto;
+.grid-container {
+    margin: 1.5%;
+}
+
+.row {
+    margin: 10px auto;
     position: relative;
     width: 90%;
     border: 1px solid black;
+    background: azure;
 }
 
-.section-title{
-	position: absolute;
-	right: 0px;
+.section-title {
+    position: absolute;
+    right: 0px;
     padding: 5px;
     font-size: 125%;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
 
-.section-text{
+#herbivore {
+    background: greenyellow;
+}
+
+#carnivore{
+    background: red;
+    color: white;
+}
+
+#omnivore{
+    background: orange;
+}
+
+.section-text {
     position: relative;
     top: 30px;
     width: 90%;
     margin: 16px auto 30px auto;
+    text-align: justify;
 }
 
 
