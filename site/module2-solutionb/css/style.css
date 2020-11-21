@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 175%;
+    margin: 1.75em;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 2.5% 5%;
+    margin: 3.33%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.row {
+    margin: 16px auto;
+    position: relative;
+    border: 1px solid black;
+    background: azure;
+}
+
+.section-title {
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+    font-size: 125%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#herbivore {
+    background: greenyellow;
+}
+
+#carnivore {
+    background: red;
+    color: white;
+}
+
+#omnivore {
+    background: orange;
+}
+
+.section-text {
+    position: relative;
+    top: 30px;
+    width: 90%;
+    margin: 16px auto 30px auto;
+    text-align: justify;
+}
+
+
+@media (min-width: 992px) {
+    /*Desktop view*/
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Tablet view*/
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .tabletBottomRow {
+        grid-column: 1 /span 2;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    /*Mobile view*/
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
