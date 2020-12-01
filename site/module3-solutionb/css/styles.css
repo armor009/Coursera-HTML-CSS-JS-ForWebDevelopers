@@ -45,3 +45,6 @@ body {
     border: 2px solid #000000;
 }
 
+.container-fluid a{
+    text-decoration: underline;
+}
