@@ -1,0 +1,35 @@
+body {
+    font-family: 'Texturina', serif;
+    background: #491a27;
+}
+
+
+.navbar {
+    background: #f6b319;
+}
+
+.navbar-brand h1{
+	color: #255625;
+    margin: -7px 0px 0px;
+}
+
+
+.navbar-nav {
+    background: #255625;
+}
+
+.container .nav li a{
+    /*why removing any selector in this causes the coloring to fail*/
+    color: #f7ecb5;
+    border: 1px solid #ffffff;
+}
+
+.container h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.col-xs-12{
+    background: #f0ffff;
+}
+
