@@ -3,8 +3,10 @@ body {
     background: #491a27;
 }
 
-.navbar, .container .navbar-header{
+.navbar{
     background: #f6b319;
+    border-radius: 0;
+    border: 0px;
 }
 
 .navbar-header .navbar-toggle, .icon-bar{
